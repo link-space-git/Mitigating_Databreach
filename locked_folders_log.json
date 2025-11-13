@@ -1,0 +1,34 @@
+[
+  {
+    "timestamp": "2025-11-09T16:20:28.864279",
+    "folder": "D:\\link\\Documents\\TESTING1PURPOSE",
+    "action": "locked",
+    "items_affected": 39,
+    "errors": 0,
+    "platform": "Windows"
+  },
+  {
+    "timestamp": "2025-11-09T16:21:08.049130",
+    "folder": "D:\\link\\Documents\\TESTING1PURPOSE",
+    "action": "unlocked",
+    "items_affected": 39,
+    "errors": 0,
+    "platform": "Windows"
+  },
+  {
+    "timestamp": "2025-11-13T19:57:45.519073",
+    "folder": "D:\\link\\Documents\\TESTING1PURPOSE",
+    "action": "locked",
+    "items_affected": 39,
+    "errors": 0,
+    "platform": "Windows"
+  },
+  {
+    "timestamp": "2025-11-13T19:58:34.356417",
+    "folder": "D:\\link\\Documents\\TESTING1PURPOSE",
+    "action": "unlocked",
+    "items_affected": 39,
+    "errors": 0,
+    "platform": "Windows"
+  }
+]

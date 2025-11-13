@@ -1,0 +1,39 @@
+How to Setup Firewall for File Monitor Agent
+============================================
+
+This guide explains how to configure Windows Firewall to allow the File Monitor Agent to communicate properly.
+
+Overview
+--------
+The File Monitor Agent needs to send file event data to a central monitoring server. You may need to configure firewall rules to allow this communication, especially if you're using TCP protocol or if your network has strict firewall policies.
+
+When Firewall Configuration is Needed:
+- Using TCP protocol (UDP is often allowed by default)
+- In corporate environments with strict firewall policies
+- When connection attempts are being blocked
+- When moving between different network zones
+
+Windows Defender Firewall - Basic Inbound Rules
+---------------------------------------------------------
+
+For the CENTRAL MONITOR (Computer Host - Receiving end):
+
+1. Open Windows Defender Firewall:
+   - Press Windows Key + R
+   - Type `wf.msc` and press Enter
+   - Or go to: Control Panel > System and Security > Windows Defender Firewall > Advanced Settings
+
+2. Create Inbound Rule:
+   - Right-click "Inbound Rules" in the left pane
+   - Select "New Rule..."
+   - Choose "Port" and click "Next"
+   - Select "TCP" (or "UDP" if using UDP)
+   - Select "Specific local ports" and enter: `9999`
+   - Click "Next"
+   - Select "Allow the connection"
+   - Click "Next"
+   - Select when the rule applies (Domain, Private, Public - typically select all)
+   - Click "Next"
+   - Name: "File Monitor Agent - Port 9999"
+   - Description: "Allow file monitoring agent communications"
+   - Click "Finish"

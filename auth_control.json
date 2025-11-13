@@ -1,0 +1,189 @@
+{
+  "users": {
+    "admin": {
+      "password": "$2b$12$gUn/ey3ju1Nx91HOACQgyurlFv2M6CsZ32sNSRJvlXZgKJTAQGsgS",
+      "is_admin": true,
+      "last_login": null,
+      "failed_attempts": 0,
+      "security_questions": {
+        "question1": "What city were you born in?",
+        "answer1": "gAAAAABpFcehsgDpZ-bLqn6qpWX8lYjo-VBy3DWayFW8jZb2FwL3JEHhkL_PLWRhMkxcWniPDIt9qNqsR0eTMsN_H9lt0Uc3WK17a5Co7OMFoFvYnxX6DWBDH-FOe2oUa_LBvJlK2pZ_YbE8L9Sjd5Mz6UCYidEkaVTBKM43oGsWwZVzHFMYXEO-OUFOWteuzjx0CLuyF3_bvNaeEUtuchVBJL6S4uipmQ==",
+        "question2": "What was your first pet's name?",
+        "answer2": "gAAAAABpFcehl0_fZPhFqQ9RK_hRbHTNMMelyymM9xM9XoMfSEDSMCO3WPSaH7SXjI6CX20f6oYWO7OjsDP-qnn8NSsw_WXhNfdJF6iG0vqDLP3Rmo0sguF_oxhYTym317gBiXhdwRal7qVl7C84TlZXcuIDI22uOjfbu0iaUIAfnTVpJg7-uM8dPJSptNax9zcVAN5VA3BWeth42eNhg_bFm0_rIgwHzA=="
+      }
+    },
+    "admin1": {
+      "password": "$2b$12$Mxki2vyFQkfscKo81.TT1uWUYCQCy5X/NemiWKGlvemVaAfOd3qp6",
+      "is_admin": true,
+      "last_login": "2025-11-13T19:57:21.953180",
+      "failed_attempts": 0,
+      "security_questions": {
+        "question1": "What city were you born in?",
+        "answer1": "gAAAAABpFcehHcKR3ogNMtXBpd73dZgy6kYdY9Zk0ir18A5EkJCV5-MO7V-UevbnixmIc54k0R27yqzVbtSWDxH49jPFQGXc7dtBS-KB74O_cfDMnzPyMhvjKyF52asUhalmnB9dkihBQgPfUx4rhSZ7rI7y7VIqyTGO7b-olIpD2PUnLwEm5gYdedS9tiTToGLMCgBt2cv2yHORJNntkzxO7LuS1G1UKA==",
+        "question2": "What was your first pet's name?",
+        "answer2": "gAAAAABpFcehOjnsHyvGJeW3Ra1IuEPWLuDTc_YFdpcl0pcow1OBtHvumU42Ue4-BSCtp-PRSHVTdoGySoLVYs6qVOAfe0s3GZWiS5Q-hATduDydXy5kFQWakKQt3gIVcbTrne9AZ5GskMg9nRJIV2p5UG3WmaJUanSOoq4V3wGeRZOQV1yC6HyIqUCa3GFK-iiwt_dUBt3kDiqQmQIcIlRWLxGgchDASg=="
+      }
+    }
+  },
+  "access_control": {
+    "sensitive_extensions": [
+      ".enc",
+      ".secret",
+      ".confidential"
+    ],
+    "admin_only_actions": [
+      "deep_scan",
+      "metadata_modification",
+      "log_export",
+      "user_management",
+      "encryption",
+      "decryption"
+    ],
+    "password_policy": {
+      "min_length": 12,
+      "require_upper": true,
+      "require_lower": true,
+      "require_number": true,
+      "require_special": true,
+      "max_age_days": 90
+    }
+  },
+  "audit_log": [
+    {
+      "timestamp": "2025-11-09T16:15:35.841236",
+      "username": "admin1",
+      "action": "login",
+      "status": "success",
+      "details": "",
+      "ip": "localhost"
+    },
+    {
+      "timestamp": "2025-11-09 16:15:35",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Feature access updated for admin1"
+    },
+    {
+      "timestamp": "2025-11-09 16:15:35",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Session started for user 'admin1'"
+    },
+    {
+      "timestamp": "2025-11-09T16:16:46.187193",
+      "username": "admin1",
+      "action": "login",
+      "status": "success",
+      "details": "",
+      "ip": "localhost"
+    },
+    {
+      "timestamp": "2025-11-09 16:16:46",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Feature access updated for admin1"
+    },
+    {
+      "timestamp": "2025-11-09 16:16:46",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Session started for user 'admin1'"
+    },
+    {
+      "timestamp": "2025-11-09T16:19:06.333201",
+      "username": "admin1",
+      "action": "login",
+      "status": "success",
+      "details": "",
+      "ip": "localhost"
+    },
+    {
+      "timestamp": "2025-11-09 16:19:06",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Feature access updated for admin1"
+    },
+    {
+      "timestamp": "2025-11-09 16:19:06",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Session started for user 'admin1'"
+    },
+    {
+      "timestamp": "2025-11-09T16:19:44.261099",
+      "username": "admin1",
+      "action": "login",
+      "status": "success",
+      "details": "",
+      "ip": "localhost"
+    },
+    {
+      "timestamp": "2025-11-09 16:19:44",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Feature access updated for admin1"
+    },
+    {
+      "timestamp": "2025-11-09 16:19:44",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Session started for user 'admin1'"
+    },
+    {
+      "timestamp": "2025-11-09 16:20:30",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Folder protection enabled: D:/link/Documents/TESTING1PURPOSE"
+    },
+    {
+      "timestamp": "2025-11-09 16:21:10",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Folder protection disabled: D:/link/Documents/TESTING1PURPOSE"
+    },
+    {
+      "timestamp": "2025-11-09 16:22:19",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Created backup: testing backup"
+    },
+    {
+      "timestamp": "2025-11-09 16:22:51",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Restored 110 items from D:/link/Documents/BACKUP/padlooo to D:/link/Documents/TESTING1PURPOSE"
+    },
+    {
+      "timestamp": "2025-11-13T19:57:21.953206",
+      "username": "admin1",
+      "action": "login",
+      "status": "success",
+      "details": "",
+      "ip": "localhost"
+    },
+    {
+      "timestamp": "2025-11-13 19:57:21",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Feature access updated for admin1"
+    },
+    {
+      "timestamp": "2025-11-13 19:57:21",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Session started for user 'admin1'"
+    },
+    {
+      "timestamp": "2025-11-13 19:57:47",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Folder protection enabled: D:/link/Documents/TESTING1PURPOSE"
+    },
+    {
+      "timestamp": "2025-11-13 19:58:36",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Folder protection disabled: D:/link/Documents/TESTING1PURPOSE"
+    }
+  ]
+}
