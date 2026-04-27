@@ -1,0 +1,32 @@
+# Ignore build folders
+build/
+dist/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs & data
+log_data/
+file_monitor_logs/
+locked_folders_log.json
+
+# ML training data
+train/
+
+# Sensitive keys
+*.key
+*.pem
+
+# Config (if sensitive)
+auth_key.key
+encryption_key.key
+private_key.pem
+public_key.pem
+
+# Optional: backup files
+*_backup.py
+
+# OS files
+.DS_Store
+Thumbs.db

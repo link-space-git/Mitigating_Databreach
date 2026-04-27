@@ -1,0 +1,269 @@
+{
+  "users": {
+    "admin": {
+      "password": "$2b$12$ClTlrCyj11xqHQsi76Qu7eKJz53ziKHx9Effiou.uXN87anRsvUZi",
+      "is_admin": true,
+      "last_login": null,
+      "failed_attempts": 0,
+      "security_questions": {
+        "question1": "What city were you born in?",
+        "answer1": "gAAAAABp22trICo_7n5wCx9jcA_agjBBzCc6cOaPMTMz6b497TfVRnOCUFGf5lwHHew7tp0WjceoZEYU6FS9WvwgvLo3Bgu1KnmvFaRMCqZXblylEAfmAJpflujp6vt6rzaBwMV-H5DXRRnF6eHllaWFd8FrDS4RDEkzNnAWSBZUXUqxQNR5ERPXYTk1qJuY5Jl4s2C9ZdsWdiYgCvU9LjlRPzH-ukvJnw==",
+        "question2": "What was your first pet's name?",
+        "answer2": "gAAAAABp22trHlVU_Ujjj_VjdaN-xK6tTVjzpTgbibuM1lhyJQC7VAquzwPouWWXOnWt9xScLMn1FtXieN5syN24WDTewTBXwmtzNsJOgZ-NrliYCkzyY9pwat0bQcaiSIGLsNfQ--waQ1GTOKH-hCBlYbpEw42G5pR_E9u4kJePxZ5B7zaDpKmoWRmjd92mWupmfLNIlGQlwFhK4Ke5KgJvyhGHDTgElA=="
+      }
+    },
+    "admin1": {
+      "password": "$2b$12$amsxt8PyZE9PRKZiWl77UuB4Q4jb.0BKq9vC7bRBzivM53TThdMza",
+      "is_admin": true,
+      "last_login": "2026-04-12T17:52:43.421733",
+      "failed_attempts": 0,
+      "security_questions": {
+        "question1": "What city were you born in?",
+        "answer1": "gAAAAABp22trN2QRBf_LVE9HVtM7saoJGDIQB54Ke552JhXqzbeuUH9Z3GZUGjPNaaNFmF59FjAOTojOr_kzHKhQs4HGkRfmyx8Ws_lGXT3APlf0RX9htzpzHHuBqfn9Qxtxt5S-RdYN29RBDU3_BC790glf3dwQOcNRe6HLt1P0Qr4_etsx_z63OUnLn4CdOd5U_Q1ozhq9znlCyV8a00oS81blfWMSUg==",
+        "question2": "What was your first pet's name?",
+        "answer2": "gAAAAABp22trtz0ZwlFCDjC7rLu-xgSDjIOzUlhj_yhIOmNbxtgU6qACYuc93gGMoAu3EEFxORXe2ssdk4khVO-D2oYBLiNzscWNfRo2QXepddShluJcu6XrAEFpscnVv_jew98g6y24IMww5TPqeXui-AFlRSQPrxxjfjoUjdV8fioaxJEbFymv7az9djsZMxxHqhd3zK0tP_8sy7_k7pyM_089Sp7duw=="
+      }
+    }
+  },
+  "access_control": {
+    "sensitive_extensions": [
+      ".enc",
+      ".secret",
+      ".confidential"
+    ],
+    "admin_only_actions": [
+      "deep_scan",
+      "metadata_modification",
+      "log_export",
+      "user_management",
+      "encryption",
+      "decryption"
+    ],
+    "password_policy": {
+      "min_length": 12,
+      "require_upper": true,
+      "require_lower": true,
+      "require_number": true,
+      "require_special": true,
+      "max_age_days": 90
+    }
+  },
+  "audit_log": [
+    {
+      "timestamp": "2025-11-20T12:15:46.320775",
+      "username": "admin1",
+      "action": "login",
+      "status": "success",
+      "details": "",
+      "ip": "localhost"
+    },
+    {
+      "timestamp": "2025-11-20 12:15:46",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Feature access updated for admin1"
+    },
+    {
+      "timestamp": "2025-11-20 12:15:46",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Session started for user 'admin1'"
+    },
+    {
+      "timestamp": "2025-11-20 12:18:30",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Folder protection disabled: D:/link/Documents/TESTING1PURPOSE"
+    },
+    {
+      "timestamp": "2025-11-20 12:18:39",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Created backup: fsfdsfsdfds"
+    },
+    {
+      "timestamp": "2025-11-20 12:19:07",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Created backup: backiupni"
+    },
+    {
+      "timestamp": "2025-11-20 12:19:41",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Restored 24 items from D:/link/Documents/BACKUP/backiupni to D:/link/Documents/TESTING1PURPOSE"
+    },
+    {
+      "timestamp": "2025-11-20T12:20:07.627747",
+      "username": "admin1",
+      "action": "login",
+      "status": "success",
+      "details": "",
+      "ip": "localhost"
+    },
+    {
+      "timestamp": "2025-11-20 12:20:07",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Feature access updated for admin1"
+    },
+    {
+      "timestamp": "2025-11-20 12:20:07",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Session started for user 'admin1'"
+    },
+    {
+      "timestamp": "2025-11-20T13:13:28.121287",
+      "username": "admin1",
+      "action": "login",
+      "status": "success",
+      "details": "",
+      "ip": "localhost"
+    },
+    {
+      "timestamp": "2025-11-20 13:13:28",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Feature access updated for admin1"
+    },
+    {
+      "timestamp": "2025-11-20 13:13:28",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Session started for user 'admin1'"
+    },
+    {
+      "timestamp": "2025-11-20T13:14:44.310407",
+      "username": "admin1",
+      "action": "login",
+      "status": "success",
+      "details": "",
+      "ip": "localhost"
+    },
+    {
+      "timestamp": "2025-11-20 13:14:44",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Feature access updated for admin1"
+    },
+    {
+      "timestamp": "2025-11-20 13:14:44",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Session started for user 'admin1'"
+    },
+    {
+      "timestamp": "2026-03-09T11:53:33.258504",
+      "username": "admin1",
+      "action": "login",
+      "status": "success",
+      "details": "",
+      "ip": "localhost"
+    },
+    {
+      "timestamp": "2026-03-09 11:53:33",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Feature access updated for admin1"
+    },
+    {
+      "timestamp": "2026-03-09 11:53:33",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Session started for user 'admin1'"
+    },
+    {
+      "timestamp": "2026-03-09 11:56:40",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Folder protection enabled: D:/link/Documents/TESTING"
+    },
+    {
+      "timestamp": "2026-03-09 11:57:16",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Folder protection disabled: D:/link/Documents/TESTING"
+    },
+    {
+      "timestamp": "2026-03-11T22:56:46.032442",
+      "username": "admin1",
+      "action": "login",
+      "status": "success",
+      "details": "",
+      "ip": "localhost"
+    },
+    {
+      "timestamp": "2026-03-11 22:56:46",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Feature access updated for admin1"
+    },
+    {
+      "timestamp": "2026-03-11 22:56:46",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Session started for user 'admin1'"
+    },
+    {
+      "timestamp": "2026-04-12T17:34:57.276558",
+      "username": "admin1",
+      "action": "login",
+      "status": "success",
+      "details": "",
+      "ip": "localhost"
+    },
+    {
+      "timestamp": "2026-04-12 17:34:57",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Feature access updated for admin1"
+    },
+    {
+      "timestamp": "2026-04-12 17:34:59",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Session started for user 'admin1'"
+    },
+    {
+      "timestamp": "2026-04-12T17:48:08.844465",
+      "username": "admin1",
+      "action": "login",
+      "status": "success",
+      "details": "",
+      "ip": "localhost"
+    },
+    {
+      "timestamp": "2026-04-12 17:48:08",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Feature access updated for admin1"
+    },
+    {
+      "timestamp": "2026-04-12 17:48:10",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Session started for user 'admin1'"
+    },
+    {
+      "timestamp": "2026-04-12T17:52:43.421745",
+      "username": "admin1",
+      "action": "login",
+      "status": "success",
+      "details": "",
+      "ip": "localhost"
+    },
+    {
+      "timestamp": "2026-04-12 17:52:43",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Feature access updated for admin1"
+    },
+    {
+      "timestamp": "2026-04-12 17:52:45",
+      "username": "admin1",
+      "action": "security_log",
+      "message": "Session started for user 'admin1'"
+    }
+  ]
+}
